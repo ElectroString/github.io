@@ -21,8 +21,8 @@
         let footerNavBar = `
 <nav class="navbar sticky-bottom bg-body-tertiary ">
   <div class="container-fluid ">
-    <a class="navbar-brand" href="privacyPolicy.html">Privacy Policy</a>
-    <a class="navbar-brand" href="termsOfService.html">Terms of Service</a>
+    <a class="navbar-brand" href="github.io/privacyPolicy.html">Privacy Policy</a>
+    <a class="navbar-brand" href="github.io/termsOfService.html">Terms of Service</a>
   </div>
 </nav>
 <style>
