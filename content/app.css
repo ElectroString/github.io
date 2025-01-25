@@ -1,0 +1,18 @@
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: red; /* Change to your preferred color */
+}
+
+/* Optionally, make the arrows larger */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 40px;
+    width: 40px;
+}
+
+/* Optional: Add hover effect to arrows */
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    background-color: blue; /* Change to color on hover */
+}
