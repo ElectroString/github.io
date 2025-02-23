@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Wolf",
+    "imageUrl": "./images/Wolf.jpg",
+    "description": "This is a wolf"
+  },
+  {
+    "title": "WildBerry",
+    "imageUrl": "./images/WildBerry.jpg",
+    "description": "This is some wild berries"
+  },
+  {
+    "title": "antCloseUp",
+    "imageUrl": "./images/antCloseUp.jpg",
+    "description": "ant Close up image"
+  }
+]
+

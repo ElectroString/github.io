@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gallery</title>
+
+    <!--CSS Section -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="./content/gallery.css">
+</head>
+
+<body>
+    <header></header>
+    <div class="gallery-container">
+        <h1>Event Gallery</h1>
+        <div class="gallery" id="gallery">
+            <!-- Thumbnails will be inserted here by JavaScript -->
+        </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span id="close" class="close">&times;</span>
+        <img id="lightbox-image" class="lightbox-image" />
+        <div class="lightbox-caption">
+            <h2 id="lightbox-title"></h2>
+            <p id="lightbox-description"></p>
+        </div>
+    </div>
+
+    <footer></footer>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./scripts/app.js"></script>
+</body>
+</html>

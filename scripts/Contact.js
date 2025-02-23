@@ -59,6 +59,7 @@ class Contact {
         }
         this._contactNumber = contactNumber;
     }
+
     setEmail(email) {
         const emailRegex = /^[^\s@]+@[\s@]+.[^\s@]+$/;
         if (!emailRegex.test(email)) {
@@ -66,9 +67,11 @@ class Contact {
         }
         this._email = email;
     }
+
     toString(){
         return `Full Name: ${this._fullName}\nContact Number: ${this._contactNumber}\nEmail: ${this._email}\n`;
     }
+
     serialize(){
         if (!this._fullName || !this._email || !this._contactNumber) {
             console.error("One or more contact properties are missing or invalid");
@@ -76,6 +79,7 @@ class Contact {
         }
         return `${this._fullName},${this.contactNumber},${this.email}`;
     }
+
     deserialize(data){
         if (typeof data !== "string" || data.split(",").length !== 3) {
             console.error("Invalid data format for deserializing data");

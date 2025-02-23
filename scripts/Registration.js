@@ -78,6 +78,7 @@ class Registration {
         }
         return `${this._fullName},${this._email},${this._position}`;
     }
+
     deserialize(data){
         if (typeof data !== "string" || data.split(",").length !== 3) {
             console.error("Invalid data format for deserializing data");
