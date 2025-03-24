@@ -7,7 +7,7 @@
 export async function LoadHeader(): Promise<void> {
     console.log("[INFO] Loading Header...");
 
-    return fetch("views/components/header.html")
+    return fetch("views/components/Header.html")
         .then(response => response.text())
         .then(data => {
             const headerElement = document.querySelector('header');
