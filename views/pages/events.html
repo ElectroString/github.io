@@ -1,0 +1,38 @@
+
+        <h2 class="display-4 text-center" id="loginMessage"></h2>
+        <div>
+            <ul id="eventList">
+
+            </ul>
+        </div>
+        <form class="col-lg-6 col-md-10 col-sm-12 mb-4">
+            <div class="input-group-text mb-3">
+                <span class="input-group-text">Search by Location</span>
+                <select class="custom-select pe-2" id="searchLocation">
+                    <option value="Oshawa,ON">Oshawa,ON</option>
+                    <option value="Toronto,ON">Toronto,ON</option>
+                </select>
+            </div>
+            <div class="input-group-text mb-3">
+                <span class="input-group-text">Search by Name</span>
+                <input class="form-control " id="searchCategory" name="searchCategory" type="text" aria-describedby="Search by category" aria-label="Search by category">
+                <button type="submit" id="searchButton" name="searchButton" class="btn btn-primary"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+            </div>
+            <div class="input-group-text mb-3">
+                <span class="input-group-text">Search by Day Open</span>
+                <select class="custom-select pe-2" id="searchDate">
+                    <option value="1">Monday</option>
+                    <option value="2">Tuesday</option>
+                    <option value="3">Wednesday</option>
+                    <option value="4">Thursday</option>
+                    <option value="5">Friday</option>
+                    <option value="6">Saturday</option>
+                    <option value="7">Sunday</option>
+                </select>
+                <span class="input-group-text">Sort by</span>
+                <select class="custom-select pe-2" id="sort">
+                    <option value="Popularity">Popularity</option>
+                    <option value="Distance">Distance</option>
+                </select>
+            </div>
+        </form>

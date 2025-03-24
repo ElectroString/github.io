@@ -1,0 +1,35 @@
+<h1>
+  Event Planning
+</h1>
+<h2 class="display-4 text-center" id="loginMessage"></h2>
+<h2> Upcoming Community Events</h2>
+<div id="eventsPlanningItems">
+
+</div>
+
+<h2>Create Your Own Event</h2>
+<form class="col-lg-6 col-md-10 col-sm-12 mb-4">
+  <div class="input-group-text mb-3">
+    <span class="input-group-text">Event Name</span>
+    <input class="form-control" id="eventName" name="eventName" type="text" aria-describedby="Event Name" aria-label="Event Name">
+  </div>
+  <div class="input-group-text mb-3">
+    <span class="input-group-text">Date</span>
+    <input class="form-control" id="Date" name="Date" type="Date" aria-describedby="Date" aria-label="Date">
+  </div>
+  <div class="input-group-text mb-3">
+    <span class="input-group-text">Time</span>
+    <input class="form-control" id="Time" name="Time" type="Time" aria-describedby="Time" aria-label="Time">
+  </div>
+  <div class="input-group-text mb-3">
+    <span class="input-group-text">Location</span>
+    <input class="form-control" id="Location" name="eventName" type="text" aria-describedby="Event Name" aria-label="Event Name">
+  </div>
+  <div class="input-group-text mb-3">
+    <span class="input-group-text">Description</span>
+    <textarea class="form-control" id="Description" name="message" type="text" aria-describedby="Message" aria-label="Message"></textarea>
+  </div>
+  <button type="submit" id="submitButton" name="sendButton" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> Submit</button>
+  <button type="reset" id="resetButton" name="resetButton" class="btn btn-warning"><i class="fa-solid fa-ban"></i> Cancel</button>
+</form>
+<form id="feedback"></form>

@@ -1,0 +1,25 @@
+{
+  "events": [
+    {
+      "eventName": "Hockey",
+      "Date": "04-April-25",
+      "Time": "2:00pm",
+      "Location": "Oshawa, ON",
+      "Description": "Come out for some good old fashion hockey"
+    },
+    {
+      "eventName": "Archery",
+      "Date": "17-April-25",
+      "Time": "3:30pm",
+      "Location": "Toronto, ON",
+      "Description": "Join us at the range, and test your aim"
+    },
+    {
+      "eventName": "Pottery",
+      "Date": "28-March-25",
+      "Time": "12:00pm",
+      "Location": "Oshawa, ON",
+      "Description": "Have fun making pots. Take home what you create"
+    }
+  ]
+}
