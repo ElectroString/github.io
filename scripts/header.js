@@ -1,7 +1,7 @@
 "use strict";
 export async function LoadHeader() {
     console.log("[INFO] Loading Header...");
-    return fetch("views/components/header.html")
+    return fetch("../views/components/Header.html")
         .then(response => response.text())
         .then(data => {
         const headerElement = document.querySelector('header');
